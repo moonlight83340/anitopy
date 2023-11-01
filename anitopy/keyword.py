@@ -105,7 +105,7 @@ class KeywordManager:
             'DVD', 'DVD5', 'DVD9', 'DVD-R2J', 'DVDRIP', 'DVD-RIP',
             'R2DVD', 'R2J', 'R2JDVD', 'R2JDVDRIP',
             'HDTV', 'HDTVRIP', 'TVRIP', 'TV-RIP',
-            'WEBCAST', 'WEBRIP'])
+            'WEBCAST', 'WEBRIP','WEB'])
 
         self.add(ElementCategory.SUBTITLES, options_default, [
             'ASS', 'BIG5', 'DUB', 'DUBBED', 'HARDSUB', 'HARDSUBS', 'RAW',
