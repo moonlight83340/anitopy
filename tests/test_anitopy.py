@@ -49,16 +49,4 @@ class TestAnitopy(TestCase):
             expected = dict(entry[2])
             if 'id' in expected.keys():
                 del expected['id']
-            try:
-                self.assertEqual(expected, elements)
-                working_tests.append(index)
-            except AssertionError as err:
-                failed += 1
-                print(err)
-                print('----------------------------------------------------------------------')  # noqa E501
-
-        print('\nFailed %d of %d failing cases tests' % (
-            failed, len(failing_table)))
-        if working_tests:
-            print('There are {} working tests from the failing cases: {}'
-                  .format(len(working_tests), working_tests))
+            self.assertNotEqual(expected, elements)
