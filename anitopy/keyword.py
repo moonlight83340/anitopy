@@ -122,16 +122,19 @@ class KeywordManager:
             # Frame rate
             '23.976FPS', '24FPS', '29.97FPS', '30FPS', '60FPS', '120FPS',
             # Video codec
-            '8BIT', '8-BIT', '10BIT', '10BITS', '10-BIT', '10-BITS',
-            'HI10', 'HI10P', 'HI444', 'HI444P', 'HI444PP',
+            '8BIT', '8-BIT', '10BIT', '10BITS', '10-BIT', '10-BITS', '12BIT', '12BITS',
+            'HI10', 'HI10P', 'HI444', 'HI444P', 'HI444PP', 'Ma10p',
+            'HDR', 'DV', 'DOLBY VISION',
             'H264', 'H265', 'H.264', 'H.265', 'X264', 'X265', 'X.264',
             'AVC', 'HEVC', 'HEVC2', 'DIVX', 'DIVX5', 'DIVX6', 'XVID',
             # Video format
-            'AVI', 'RMVB', 'WMV', 'WMV3', 'WMV9',
+            'AVI', 'RMVB', 'WMV', 'WMV3', 'WMV9', 'MP4', 'MKV',
             # Video quality
             'HQ', 'LQ',
             # Video resolution
-            'HD', 'SD'])
+            '4K', 'HD', 'SD', '1080P', '2160P', '1080p', '2160p',
+            # VCB
+            'Ma10p_1080p'])
 
         self.add(ElementCategory.VOLUME_PREFIX, options_default, [
             'VOL', 'VOL.', 'VOLUME'])
@@ -159,8 +162,8 @@ class KeywordManager:
     def peek(elements, string):
         entries = [
             (ElementCategory.AUDIO_TERM, ['Dual Audio', 'Multi Audio']),
-            (ElementCategory.VIDEO_TERM, ['H264', 'H.264', 'h264', 'h.264']),
-            (ElementCategory.VIDEO_RESOLUTION, ['480p', '720p', '1080p']),
+            (ElementCategory.VIDEO_TERM, ['H264', 'H.264', 'h264', 'h.264', 'H265', 'H.265', 'h265', 'h.265']),
+            (ElementCategory.VIDEO_RESOLUTION, ['480p', '720p', '1080p', '2160p']),
             (ElementCategory.SUBTITLES, ['Multiple Subtitle', 'Multi Subs']),
             (ElementCategory.SOURCE, ['Blu-Ray'])
         ]
