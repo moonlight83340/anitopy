@@ -86,7 +86,8 @@ class KeywordManager:
             'ASS', 'SRT'])
 
         self.add(ElementCategory.LANGUAGE, options_default, [
-            'ENG', 'ENGLISH', 'ESPANOL', 'JAP', 'PT-BR', 'SPANISH', 'VOSTFR'])
+            'ENG', 'ENGLISH', 'ESPANOL', 'JAP', 'PT-BR', 'SPANISH', 'VOSTFR',
+            'GB', 'CHS', 'JP', 'BIG5', 'CHT', '日文', 'JPN'])
         self.add(ElementCategory.LANGUAGE, options_unidentifiable, [
             'ESP', 'ITA'])  # e.g. "Tokyo ESP", "Bokura ga Ita"
 
