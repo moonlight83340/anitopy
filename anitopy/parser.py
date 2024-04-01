@@ -105,7 +105,7 @@ class Parser:
                     continue
 
             # Video resolution
-            if number == 480 or number == 720 or number == 1080:
+            if number == 480 or number == 720 or number == 1080 or number == 2160:
                 # If these numbers are isolated, it's more likely for them to
                 # be the video resolution rather than the episode number. Some
                 # fansub groups use these without the "p" suffix.
