@@ -51,15 +51,20 @@ class KeywordManager:
 
         self.add(ElementCategory.AUDIO_TERM, options_default, [
             # Audio channels
-            '2.0CH', '2CH', '5.1', '5.1CH', 'DTS', 'DTS-ES', 'DTS5.1',
-            'TRUEHD5.1',
+            '2.0CH', '2CH', '5.1', '5.1CH', '7.1', '7.1CH', 'DTS', 'DTS-ES', 'DTS5.1',
+            'DOLBY TRUEHD', 'TRUEHD', 'TRUEHD5.1',
             # Audio codec
             'AAC', 'AACX2', 'AACX3', 'AACX4', 'AC3', 'EAC3', 'E-AC-3',
             'FLAC', 'FLACX2', 'FLACX3', 'FLACX4', 'LOSSLESS', 'MP3', 'OGG',
             'VORBIS',
+            'ATMOS', 'DOLBY ATMOS',
             # Audio language
             'DUALAUDIO', 'DUAL AUDIO', 'DUAL-AUDIO',
             'MULTIAUDIO', 'MULTI AUDIO', 'MULTI-AUDIO'])
+
+        self.add(ElementCategory.AUDIO_TERM, options_unidentifiable, [
+            'OPUS'
+        ])
 
         self.add(ElementCategory.DEVICE_COMPATIBILITY, options_default, [
             'IPAD3', 'IPHONE5', 'IPOD', 'PS3', 'XBOX', 'XBOX360'])
