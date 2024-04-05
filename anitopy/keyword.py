@@ -73,7 +73,7 @@ class KeywordManager:
 
         self.add(ElementCategory.EPISODE_PREFIX, options_default, [
             'EP', 'EP.', 'EPS', 'EPS.', 'EPISODE', 'EPISODE.', 'EPISODES',
-            'CAPITULO', 'EPISODIO', 'FOLGE'])
+            'CAPITULO', 'EPISODIO', 'EPIS\u00F3DIO', 'FOLGE'])
         self.add(ElementCategory.EPISODE_PREFIX, options_invalid, [
             'E', '\x7B2C'])  # single-letter episode keywords are not valid
 
