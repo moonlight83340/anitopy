@@ -116,7 +116,7 @@ class KeywordManager:
         self.add(ElementCategory.SUBTITLES, options_default, [
             'ASS', 'BIG5', 'DUB', 'DUBBED', 'HARDSUB', 'HARDSUBS', 'RAW',
             'SOFTSUB', 'SOFTSUBS', 'SUB', 'SUBBED', 'SUBTITLED',
-            'MULTIPLE SUBTITLE', 'MULTI SUBS', 'MULTI-SUBS'])
+            'MULTIPLE SUBTITLE', 'MULTISUB', 'MULTI SUBS', 'MULTI-SUBS'])
 
         self.add(ElementCategory.VIDEO_TERM, options_default, [
             # Frame rate
