@@ -126,7 +126,7 @@ class KeywordManager:
             'H264', 'H265', 'H.264', 'H.265', 'X264', 'X265', 'X.264',
             'AVC', 'HEVC', 'HEVC2', 'DIVX', 'DIVX5', 'DIVX6', 'XVID',
             # Video format
-            'AVI', 'RMVB', 'WMV', 'WMV3', 'WMV9',
+            'AVI', 'RMVB', 'WMV', 'WMV3', 'WMV9', 'MP4', 'MKV', 'AV1',
             # Video quality
             'HQ', 'LQ',
             # Video resolution
