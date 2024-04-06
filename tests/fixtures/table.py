@@ -2160,5 +2160,49 @@ table = [
             'file_name': "[M-L-Stuffs] Futari wa Precure (Pretty Cure) 01",
             'release_group': 'M-L-Stuffs'
         }
-    ],
+    ], [
+        "JoJos.Bizarre.Adventure.2012.S02E47.Dios.World.3.1080p.BluRay.Remux.DTS-HD.MA2.1.H.264-Meakes.mkv",
+        None,
+        {
+            'anime_season': '02',
+            'anime_title': 'JoJos Bizarre Adventure 2012',
+            'episode_number': '47',
+            'episode_title': 'Dios World.3',
+            'file_extension': 'mkv',
+            'file_name': 'JoJos.Bizarre.Adventure.2012.S02E47.Dios.World.3.1080p.BluRay.Remux.DTS-HD.MA2.1.H.264-Meakes.mkv',
+            'release_information': 'Remux',
+            'source': 'BluRay',
+            'video_resolution': '1080p',
+            'video_term': 'H.264'
+            #'release_group':'Meakes'
+        }
+    ], [
+        "Piano no Mori (TV) 2nd Season - 01",
+        None,
+        {
+            'anime_season': '2',
+            'anime_title': 'Piano no Mori (TV)',
+#            'anime_title': 'Piano no Mori',
+            'episode_number': '01',
+            'anime_type': 'TV',
+            'file_name': 'Piano no Mori (TV) 2nd Season - 01',
+        }
+    ]
 ]
+
+"""
+    , [
+        "05 - Hidan no Aria - Butei Charter Article 1 - [UTW](E7724B68).mkv",
+        None,
+        {
+            'anime_season': '01',
+            'anime_title': 'Hidan no Aria',
+            'episode_number': '05',
+            'episode_title': 'Butei Charter Article 1',
+            'file_extension': 'mkv',
+            'file_name': '05 - Hidan no Aria - Butei Charter Article 1 - [UTW](E7724B68).mkv',
+            'file_checksum': 'E7724B68',
+            'release_group':'UTW'
+        }
+    ]
+"""
